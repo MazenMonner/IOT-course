@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+    int result;
+    
+    cout << "Enter the first integer: ";
+    cin >> num1;
+    
+    cout << "Enter the second integer: ";
+    cin >> num2;
+    
+    result = ((num1 + num2) * 3) - 10;
+    
+    cout << "The result is: " << result << endl;
+    
+    return 0;
+}
